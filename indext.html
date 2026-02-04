@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO Meta Tags -->
+    <title>Grand Haven Hotel | Luxury Hotel & Accommodation in New York</title>
+    <meta name="title" content="Grand Haven Hotel | Luxury Hotel & Accommodation in New York">
+    <meta name="description"
+        content="Experience world-class luxury at Grand Haven Hotel. Premium rooms, spa & wellness, gourmet dining, and exceptional service. Book your stay today and save 15%.">
+    <meta name="keywords"
+        content="luxury hotel, New York hotel, boutique hotel, hotel accommodation, spa hotel, business hotel, hotel booking, premium suites, hotel deals">
+    <meta name="author" content="Grand Haven Hotel">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.grandhavenhotel.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.grandhavenhotel.com/">
+    <meta property="og:title" content="Grand Haven Hotel | Luxury Hotel & Accommodation in New York">
+    <meta property="og:description"
+        content="Experience world-class luxury at Grand Haven Hotel. Premium rooms, spa & wellness, gourmet dining, and exceptional service. Book your stay today and save 15%.">
+    <meta property="og:image" content="https://www.grandhavenhotel.com/images/og-image.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Grand Haven Hotel">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.grandhavenhotel.com/">
+    <meta name="twitter:title" content="Grand Haven Hotel | Luxury Hotel & Accommodation in New York">
+    <meta name="twitter:description"
+        content="Experience world-class luxury at Grand Haven Hotel. Premium rooms, spa & wellness, gourmet dining, and exceptional service.">
+    <meta name="twitter:image" content="https://www.grandhavenhotel.com/images/twitter-image.jpg">
+
+    <!-- Additional SEO -->
+    <meta name="geo.region" content="US-NY">
+    <meta name="geo.placename" content="New York">
+    <meta name="theme-color" content="#1a1a2e">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="dns-prefetch" href="https://images.unsplash.com">
+
+    <!-- Critical CSS Inline (above-the-fold) -->
+    <style>
+        :root {
+            --color-primary: #1a1a2e;
+            --color-accent: #c9a45c;
+            --color-white: #fff;
+            --font-heading: "Playfair Display", serif;
+            --font-body: "Inter", sans-serif
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: var(--font-body);
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            background: #fff
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 20px 0;
+            background: transparent;
+            transition: all .3s ease
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px
+        }
+
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: #1a1a2e
+        }
+
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(26, 26, 46, .85) 0%, rgba(22, 33, 62, .7) 100%)
+        }
+    </style>
+
+    <!-- Fonts with display swap for performance -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+            rel="stylesheet">
+    </noscript>
+
+    <!-- Main Stylesheet (deferred) -->
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- Structured Data / Schema.org for Hotels -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Hotel",
+        "name": "Grand Haven Hotel",
+        "description": "Experience world-class luxury at Grand Haven Hotel. Premium rooms, spa & wellness, gourmet dining, and exceptional service.",
+        "url": "https://www.grandhavenhotel.com",
+        "telephone": "+1-234-567-890",
+        "email": "info@grandhaven.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Luxury Avenue",
+            "addressLocality": "New York",
+            "addressRegion": "NY",
+            "postalCode": "10001",
+            "addressCountry": "US"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "40.7128",
+            "longitude": "-74.0060"
+        },
+        "image": "https://www.grandhavenhotel.com/images/hotel-exterior.jpg",
+        "priceRange": "$199 - $799",
+        "starRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "50000"
+        },
+        "amenityFeature": [
+            {"@type": "LocationFeatureSpecification", "name": "Free WiFi"},
+            {"@type": "LocationFeatureSpecification", "name": "Spa"},
+            {"@type": "LocationFeatureSpecification", "name": "Fitness Center"},
+            {"@type": "LocationFeatureSpecification", "name": "Restaurant"},
+            {"@type": "LocationFeatureSpecification", "name": "Room Service"},
+            {"@type": "LocationFeatureSpecification", "name": "Concierge"},
+            {"@type": "LocationFeatureSpecification", "name": "Airport Transfer"},
+            {"@type": "LocationFeatureSpecification", "name": "Valet Parking"}
+        ],
+        "checkinTime": "15:00",
+        "checkoutTime": "12:00",
+        "numberOfRooms": 150,
+        "petsAllowed": true
+    }
+    </script>
+
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What are the check-in and check-out times?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Check-in time is 3:00 PM and check-out time is 12:00 PM. Early check-in and late check-out can be arranged upon request, subject to availability."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is parking available at the hotel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, we offer complimentary valet parking for all hotel guests. Self-parking is also available in our secure underground garage at a daily rate of $25."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do you offer airport transportation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, we provide complimentary airport shuttle service for guests staying in our Executive and Presidential suites. For other room types, airport transfers can be arranged at an additional cost."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is your cancellation policy?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Reservations can be cancelled free of charge up to 48 hours before the scheduled check-in date. Cancellations made within 48 hours will incur a charge equal to one night's stay."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are pets allowed at the hotel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We welcome pets in designated pet-friendly rooms. A pet fee of $50 per night applies."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What dining options are available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our hotel features three dining venues: The Grand Restaurant (fine dining), The Terrace Café (casual all-day dining), and The Skyline Bar (rooftop bar and lounge). Room service is available 24/7."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <div class="container">
+                <a href="#" class="logo">Grand Haven</a>
+                <ul class="nav-links" id="nav-links" role="menubar">
+                    <li role="none"><a href="#about" role="menuitem">About</a></li>
+                    <li role="none"><a href="#services" role="menuitem">Services</a></li>
+                    <li role="none"><a href="#rooms" role="menuitem">Rooms</a></li>
+                    <li role="none"><a href="#pricing" role="menuitem">Pricing</a></li>
+                    <li role="none"><a href="#faq" role="menuitem">FAQ</a></li>
+                </ul>
+                <a href="#cta" class="btn btn-nav">Book Now</a>
+                <button class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false"
+                    aria-controls="nav-links">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <span class="hero-tag">Welcome to Luxury</span>
+                <h1>Experience Unforgettable<br>Moments of Elegance</h1>
+                <p>Discover a sanctuary where refined hospitality meets timeless comfort. Your perfect getaway awaits at
+                    Grand Haven Hotel.</p>
+                <div class="hero-buttons">
+                    <a href="#rooms" class="btn btn-primary">Explore Rooms</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&h=700&fit=crop&auto=format&q=75"
+                            alt="Grand Haven Hotel elegant lobby with marble floors and crystal chandelier"
+                            loading="lazy" width="600" height="700" decoding="async">
+                        <div class="experience-badge">
+                            <span class="number">25+</span>
+                            <span class="text">Years of Excellence</span>
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <span class="section-tag">About Us</span>
+                        <h2>A Legacy of Exceptional Hospitality</h2>
+                        <p>Since 2001, Grand Haven Hotel has been a beacon of luxury and comfort in the heart of the
+                            city.
+                            Our commitment to excellence has made us the preferred destination for discerning travelers
+                            seeking an unparalleled experience.</p>
+                        <p>From our meticulously designed rooms to our world-class amenities, every detail is crafted to
+                            ensure your stay exceeds expectations. Our dedicated team of hospitality professionals is
+                            committed to creating memorable moments for each guest.</p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <span class="stat-number">150+</span>
+                                <span class="stat-label">Luxury Rooms</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">50K+</span>
+                                <span class="stat-label">Happy Guests</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">4.9</span>
+                                <span class="stat-label">Guest Rating</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Our Services</span>
+                    <h2>Premium Amenities for Your Comfort</h2>
+                    <p>We offer a comprehensive range of services designed to make your stay exceptional.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M3 11l18-5v12L3 14v-3z" />
+                                <path d="M11.6 16.8a3 3 0 1 1-5.8-1.6" />
+                            </svg>
+                        </div>
+                        <h3>24/7 Concierge</h3>
+                        <p>Round-the-clock personalized assistance for all your needs and requests.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M18 8h1a4 4 0 0 1 0 8h-1" />
+                                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z" />
+                                <line x1="6" y1="1" x2="6" y2="4" />
+                                <line x1="10" y1="1" x2="10" y2="4" />
+                                <line x1="14" y1="1" x2="14" y2="4" />
+                            </svg>
+                        </div>
+                        <h3>Gourmet Dining</h3>
+                        <p>Exquisite culinary experiences with international and local cuisine.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+                                <point x="12" y="17" />
+                            </svg>
+                        </div>
+                        <h3>Spa & Wellness</h3>
+                        <p>Rejuvenating spa treatments and state-of-the-art fitness facilities.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect x="1" y="4" width="22" height="16" rx="2" ry="2" />
+                                <line x1="1" y1="10" x2="23" y2="10" />
+                            </svg>
+                        </div>
+                        <h3>Business Center</h3>
+                        <p>Modern meeting rooms and business services for corporate travelers.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z" />
+                            </svg>
+                        </div>
+                        <h3>Airport Transfer</h3>
+                        <p>Complimentary luxury airport pickup and drop-off services.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            </svg>
+                        </div>
+                        <h3>24/7 Security</h3>
+                        <p>Advanced security systems ensuring your safety and peace of mind.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rooms Section -->
+        <section id="rooms" class="rooms section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Room Types</span>
+                    <h2>Elegantly Designed Accommodations</h2>
+                    <p>Choose from our selection of beautifully appointed rooms and suites.</p>
+                </div>
+                <div class="rooms-grid">
+                    <article class="room-card" itemscope itemtype="https://schema.org/HotelRoom">
+                        <div class="room-image">
+                            <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=500&h=350&fit=crop&auto=format&q=75"
+                                alt="Grand Haven Deluxe Room with king bed and city views" loading="lazy" width="500"
+                                height="350" decoding="async" itemprop="image">
+                            <span class="room-badge">Popular</span>
+                        </div>
+                        <div class="room-content">
+                            <h3>Deluxe Room</h3>
+                            <p>Spacious comfort with city views, premium bedding, and modern amenities.</p>
+                            <ul class="room-features">
+                                <li>35 sqm</li>
+                                <li>King Bed</li>
+                                <li>City View</li>
+                            </ul>
+                            <div class="room-footer">
+                                <span class="room-price">From $199<small>/night</small></span>
+                                <a href="#cta" class="btn btn-outline">Book Now</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="room-card" itemscope itemtype="https://schema.org/HotelRoom">
+                        <div class="room-image">
+                            <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&h=350&fit=crop&auto=format&q=75"
+                                alt="Grand Haven Executive Suite with separate living area and premium amenities"
+                                loading="lazy" width="500" height="350" decoding="async" itemprop="image">
+                            <span class="room-badge featured">Best Value</span>
+                        </div>
+                        <div class="room-content">
+                            <h3>Executive Suite</h3>
+                            <p>Luxurious suite with separate living area, work desk, and premium services.</p>
+                            <ul class="room-features">
+                                <li>55 sqm</li>
+                                <li>King Bed</li>
+                                <li>Living Area</li>
+                            </ul>
+                            <div class="room-footer">
+                                <span class="room-price">From $349<small>/night</small></span>
+                                <a href="#cta" class="btn btn-outline">Book Now</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="room-card" itemscope itemtype="https://schema.org/HotelRoom">
+                        <div class="room-image">
+                            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=500&h=350&fit=crop&auto=format&q=75"
+                                alt="Grand Haven Presidential Suite with panoramic views and private terrace"
+                                loading="lazy" width="500" height="350" decoding="async" itemprop="image">
+                            <span class="room-badge">Exclusive</span>
+                        </div>
+                        <div class="room-content">
+                            <h3>Presidential Suite</h3>
+                            <p>Ultimate luxury with panoramic views, private terrace, and butler service.</p>
+                            <ul class="room-features">
+                                <li>120 sqm</li>
+                                <li>King Bed</li>
+                                <li>Terrace</li>
+                            </ul>
+                            <div class="room-footer">
+                                <span class="room-price">From $799<small>/night</small></span>
+                                <a href="#cta" class="btn btn-outline">Book Now</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Pricing Plans</span>
+                    <h2>Flexible Packages for Every Stay</h2>
+                    <p>Choose the perfect package that suits your travel needs and budget.</p>
+                </div>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Weekend Escape</h3>
+                            <p>Perfect for short getaways</p>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="amount">299</span>
+                            <span class="period">/2 nights</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✓</span> Deluxe Room Accommodation</li>
+                            <li><span class="check">✓</span> Complimentary Breakfast</li>
+                            <li><span class="check">✓</span> Late Checkout (2 PM)</li>
+                            <li><span class="check">✓</span> Free WiFi</li>
+                            <li><span class="check">✓</span> Access to Fitness Center</li>
+                        </ul>
+                        <a href="#cta" class="btn btn-outline btn-full">Select Package</a>
+                    </div>
+                    <div class="pricing-card featured">
+                        <div class="pricing-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h3>Week of Luxury</h3>
+                            <p>Extended stay with premium perks</p>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="amount">1,199</span>
+                            <span class="period">/7 nights</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✓</span> Executive Suite Accommodation</li>
+                            <li><span class="check">✓</span> Full Board Meals</li>
+                            <li><span class="check">✓</span> Airport Transfers</li>
+                            <li><span class="check">✓</span> Spa Treatment (1 session)</li>
+                            <li><span class="check">✓</span> City Tour Included</li>
+                            <li><span class="check">✓</span> Minibar Included</li>
+                        </ul>
+                        <a href="#cta" class="btn btn-primary btn-full">Select Package</a>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Business Traveler</h3>
+                            <p>Tailored for professionals</p>
+                        </div>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="amount">499</span>
+                            <span class="period">/3 nights</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><span class="check">✓</span> Executive Room</li>
+                            <li><span class="check">✓</span> Business Center Access</li>
+                            <li><span class="check">✓</span> Meeting Room (4 hrs)</li>
+                            <li><span class="check">✓</span> Express Laundry</li>
+                            <li><span class="check">✓</span> Breakfast Included</li>
+                        </ul>
+                        <a href="#cta" class="btn btn-outline btn-full">Select Package</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta" class="cta section">
+            <div class="cta-overlay"></div>
+            <div class="container">
+                <div class="cta-content">
+                    <span class="section-tag light">Start Your Journey</span>
+                    <h2>Ready to Experience Luxury?</h2>
+                    <p>Book your stay today and receive 15% off your first reservation. Limited time offer for new
+                        guests.
+                    </p>
+                    <form class="cta-form" id="booking-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="checkin">Check-in</label>
+                                <input type="date" id="checkin" name="checkin" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="checkout">Check-out</label>
+                                <input type="date" id="checkout" name="checkout" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="guests">Guests</label>
+                                <select id="guests" name="guests">
+                                    <option value="1">1 Guest</option>
+                                    <option value="2" selected>2 Guests</option>
+                                    <option value="3">3 Guests</option>
+                                    <option value="4">4 Guests</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="room-type">Room Type</label>
+                                <select id="room-type" name="room-type">
+                                    <option value="deluxe">Deluxe Room</option>
+                                    <option value="executive">Executive Suite</option>
+                                    <option value="presidential">Presidential Suite</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg">Check Availability</button>
+                    </form>
+                    <p class="cta-note">Free cancellation up to 48 hours before check-in</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">FAQ</span>
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Find answers to common questions about your stay at Grand Haven Hotel.</p>
+                </div>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What are the check-in and check-out times?</span>
+                            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Check-in time is 3:00 PM and check-out time is 12:00 PM. Early check-in and late
+                                check-out
+                                can be arranged upon request, subject to availability. Please contact our front desk for
+                                arrangements.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Is parking available at the hotel?</span>
+                            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, we offer complimentary valet parking for all hotel guests. Self-parking is also
+                                available in our secure underground garage at a daily rate of $25. Electric vehicle
+                                charging
+                                stations are available.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Do you offer airport transportation?</span>
+                            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, we provide complimentary airport shuttle service for guests staying in our Executive
+                                and
+                                Presidential suites. For other room types, airport transfers can be arranged at an
+                                additional cost. Please book at least 24 hours in advance.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What is your cancellation policy?</span>
+                            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Reservations can be cancelled free of charge up to 48 hours before the scheduled check-in
+                                date. Cancellations made within 48 hours of check-in will incur a charge equal to one
+                                night's stay. No-shows will be charged the full reservation amount.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Are pets allowed at the hotel?</span>
+                            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We welcome pets in designated pet-friendly rooms. A pet fee of $50 per night applies.
+                                Please
+                                inform us at the time of booking if you'll be traveling with a pet. We provide pet beds,
+                                bowls, and treats upon request.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>What dining options are available?</span>
+                            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Our hotel features three dining venues: The Grand Restaurant (fine dining), The Terrace
+                                Café
+                                (casual all-day dining), and The Skyline Bar (rooftop bar and lounge). Room service is
+                                available 24/7. We accommodate dietary restrictions with advance notice.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Grand Haven</a>
+                    <p>Experience the perfect blend of luxury, comfort, and exceptional service at Grand Haven Hotel.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#rooms">Our Rooms</a></li>
+                        <li><a href="#services">Amenities</a></li>
+                        <li><a href="#pricing">Packages</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>123 Luxury Avenue<br>New York, NY 10001</p>
+                    <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                    <p><a href="mailto:info@grandhaven.com">info@grandhaven.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Grand Haven Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+</body>
+
+</html>
